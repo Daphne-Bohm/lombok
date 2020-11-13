@@ -1,0 +1,15 @@
+
+@mixin displayFlex($direction, $justify){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+}
+
+@mixin hrLine($backgroundColor, $borderColor) {
+    width: 40px;
+    height: 1px;
+    background-color: $backgroundColor;
+    border-color: $borderColor;
+    border-radius: 10%;
+    margin: auto;
+}
